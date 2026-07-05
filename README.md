@@ -11,8 +11,11 @@
   In synchronous processing, each task is executed one after another. The application waits for the   current task to finish before processing the next one. This causes:
 
   .Increased response time for users.
+  
   .Poor performance when handling long-running tasks.
+  
   .Reduced ability to serve multiple requests simultaneously.
+  
   .Higher chances of application slowdown under heavy traffic.
   
 >>Need for Asynchronous Processing
@@ -28,12 +31,19 @@ Asynchronous processing allows tasks to run in the background without blocking t
   .Background workers handle queued tasks efficiently, making the system more reliable and scalable.
   
 >>Scope
-  .The scope of this task included:
+
+ > The scope of this task included:
+ 
   .Study the concept of Task Queues and Celery.
+  
   .Understand synchronous and asynchronous task processing.
+  
   .Learn the role of workers and message brokers.
+  
   .Explore the basic architecture and workflow of Celery.
+  
   .Identify the benefits and real-world applications of distributed task queues.
+  
   .Prepare clear documentation based on the research findings.
 
 
