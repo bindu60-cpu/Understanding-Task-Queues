@@ -20,8 +20,11 @@
 Asynchronous processing allows tasks to run in the background without blocking the main application. This improves performance and scalability because:
 
   .Users receive faster responses.
+  
   .Multiple tasks can be processed concurrently.
+  
   .Long-running jobs (emails, reports, file processing, AI tasks) do not affect user requests.
+  
   .Background workers handle queued tasks efficiently, making the system more reliable and scalable.
   
 >>Scope
